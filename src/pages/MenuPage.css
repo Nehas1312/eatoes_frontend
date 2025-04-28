@@ -1,0 +1,43 @@
+/* MenuPage.css */
+.menu-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .menu-page h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .cart-link {
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .cart-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
+  .menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .menu-page h1 {
+      font-size: 2rem;
+    }
+  
+    .menu-items {
+      grid-template-columns: 1fr;
+    }
+  }
