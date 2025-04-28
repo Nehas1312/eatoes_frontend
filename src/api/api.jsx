@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5000/api";  // your backend URL
+const API_BASE_URL = "https://eatoes-backend-ql1e.onrender.com/api";  // your backend URL
 
 // Fetch all menu items
 export const getMenuItems = async () => {
